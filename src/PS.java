@@ -6,11 +6,13 @@ public class PS {
 
 	public void dothis() {
 		System.out.println("I am here");
+		System.out.println("github");
 	}
 
 	@BeforeMethod
 	public void beforeRun() {
-		System.out.println("run me first");
+		System.out.println("Hello test git");
+		
 	}
 	
 	@AfterMethod
