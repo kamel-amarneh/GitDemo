@@ -1,3 +1,4 @@
+import org.testng.annotations.Test;
 
 public class PS2 extends PS3{
 
@@ -24,5 +25,9 @@ public class PS2 extends PS3{
 	
 	public String myname() {
 		return "Hey "+name;
+	}
+	@Test
+	public void kameltest() {
+		System.out.println("run me last");
 	}
 }
