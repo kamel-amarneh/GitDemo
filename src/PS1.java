@@ -17,6 +17,12 @@ public class PS1 {
 		System.out.println(ps2.myname());
 		System.out.println(ps2.multiplyTow());
 		System.out.println(ps2.multiplyThree());
+	
+	}
+	
+	@Test
+	public void kameltest() {
+		System.out.println("run me last");
 	}
 
 }

@@ -9,7 +9,8 @@ public class PS3 {
 	}
 
 	public int multiplyTow() {
-		r *= 2;
+		
+		r*=2;
 		return r;
 	}
 	
